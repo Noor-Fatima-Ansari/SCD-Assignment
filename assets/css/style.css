@@ -89,14 +89,6 @@ h6 {
   padding-bottom: 6px;
 }
 
-<<<<<<< HEAD
-#header img {
-  padding: 0;
-  margin: 0;
-}
-
-=======
->>>>>>> 3d5a6dab9a8b45b4ce1f003ff82f72273232f7c9
 #header .social-links {
   margin-top: 40px;
   display: flex;
@@ -188,13 +180,7 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-<<<<<<< HEAD
-/**
-* Desktop Navigation 
-*/
-=======
 
->>>>>>> 3d5a6dab9a8b45b4ce1f003ff82f72273232f7c9
 .navbar {
   padding: 0;
   margin-top: 35px;
@@ -337,66 +323,6 @@ h6 {
 
 
 
-<<<<<<< HEAD
-
-.about-us .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.about-us .content h3 {
-  font-weight: 500;
-  line-height: 32px;
-  font-size: 24px;
-}
-
-.about-us .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about-us .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-}
-
-.about-us .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: #1bbd36;
-}
-
-.about-us .content p:last-child {
-  margin-bottom: 0;
-}
-
-
-
-#about-us {
-  position: relative;
-  padding: 80px 0; /* Adjust padding as needed */
-}
-
-#about-us::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
-  z-index: -1;
-}
-
-#about-us .container {
-  position: relative;
-  z-index: 1;
-=======
 /*services*/
 /*service header
 */
@@ -450,9 +376,8 @@ body {
 }
 
 
-
-
 /*services*/
+
 .Services .Services-item {
   margin-bottom: 30px;
 }
@@ -527,17 +452,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
->>>>>>> 3d5a6dab9a8b45b4ce1f003ff82f72273232f7c9
 }
 
 
 
-<<<<<<< HEAD
-
-
-
-
-=======
 .Services .Services-wrap .Services-info::before {
   display: block;
   content: "";
@@ -622,4 +540,71 @@ body {
   bottom: 15px;
   right: 15px;
 }
->>>>>>> 3d5a6dab9a8b45b4ce1f003ff82f72273232f7c9
+
+
+
+
+
+
+
+
+/*About us tagline*/
+
+
+.about-us .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.about-us .content h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+.about-us .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-us .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.about-us .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #1bbd36;
+}
+
+.about-us .content p:last-child {
+  margin-bottom: 0;
+}
+
+#about-us {
+  position: relative;
+  padding: 80px 0; 
+}
+
+#about-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1;
+}
+
+#about-us .container {
+  position: relative;
+  z-index: 1;
+
+
